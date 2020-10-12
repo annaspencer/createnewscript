@@ -2,7 +2,7 @@
 #
 # MUST SET -- Pantheon Machine Token. See: https://pantheon.io/docs/machine-tokens:"
 
-mtoken="5408f255243bd2292f3fbc2fafc27a2ec083fcd852902728f2ba9a3ea616b8c5"
+mtoken="secret_key"
 
 clear
 echo ""
