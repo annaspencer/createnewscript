@@ -39,7 +39,7 @@ Select an option: " answer
 echo ""
 echo ""
 if [ $answer = 1 ]; then
-  #   terminus commands here : terminus drush $sitename.dev -- site-install ua_quickstart ua_quickstart_install_options_form.uaqs_demo_enable=0 ua_quickstart_install_options_form.uaqs_verbosity=1 --account-name=$username --account-mail=$useremail --site-mail=<site-email> --site-name=$sitename -y --verbose     
+  #   terminus drush $sitename.dev -- site-install ua_quickstart ua_quickstart_install_options_form.uaqs_demo_enable=0 ua_quickstart_install_options_form.uaqs_verbosity=1 --account-name=$username --account-mail=$useremail --site-mail=<site-email> --site-name=$sitename -y --verbose     
 elif [ $answer = 2 ]; then
   #   terminus upstream:list | grep "Drupal 7" | grep "core"
   #   terminus site:create "$sitename" 21e1fada-199c-492b-97bd-0b36b53a9da0 
